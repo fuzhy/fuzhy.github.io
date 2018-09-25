@@ -37,8 +37,12 @@
 	}
 
 	$delay-wrapper:			_duration(wrapper) - 1s;
-	$delay-overlay:			$delay-wrapper - 0.5s;
-	$delay-header:			$delay-overlay + _duration(overlay) - 0.75s;
+//      cancel overlay effect
+// 	$delay-overlay:			$delay-wrapper - 0.5s;
+// 	$delay-header:			$delay-overlay + _duration(overlay) - 0.75s;
+
+        $delay-header:                  $delay-wrapper + _duration(wrapper) - 0.75s;
+
 	$delay-nav-icons:		$delay-header + _duration(header) - 1s;
 	$delay-nav-icon:		0.25s;
 
