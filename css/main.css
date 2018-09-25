@@ -270,8 +270,8 @@
 	}
 
 /* Overlay */
-
-	@-moz-keyframes overlay {
+/*  cancel overlay effect */
+/* 	@-moz-keyframes overlay {
 		0% {
 			opacity: 0;
 		}
@@ -327,7 +327,7 @@
 		position: fixed;
 		top: 0;
 		width: 100%;
-	}
+	} */
 
 /* Main */
 
